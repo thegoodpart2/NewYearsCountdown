@@ -4,11 +4,14 @@ html {
 }
 
 body {
+  background-image: url("count.jpeg");
   background-color: #f5f5f5;
-  font-family: Arial, sans-serif;
+  background-size: cover;
   margin: 0;
   padding: 0;
+  font-family: Arial, sans-serif;
   text-align: center;
+  color: yellow;
 }
 
 h1 {
@@ -31,19 +34,4 @@ span {
 .big-text {
   font-size: 2rem;
   font-weight: bold;
-}
-
-.dark-mode {
-  /* updated 6/9/24 at 3:43 PM*/
-  background-color: #1b1b32;/* originally black*/
-  color: #f5f6f7;/* originally white(lol)*/
-}
-
-.light-mode {
-  background-color: white;
-  color: black;
-}
-
-button {
-  margin-top: 5vh;
 }
