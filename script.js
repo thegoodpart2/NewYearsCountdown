@@ -1,4 +1,4 @@
-const newYears = "1 Jan 2025";
+const newYears = "1 Jan 2027";
 
 const countdown = () => {
   const newYearsDate = new Date(newYears);
